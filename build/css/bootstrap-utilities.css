@@ -28,22 +28,22 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-light: #d5dbf1;
-  --bs-dark: #0c102b;
-  --bs-primary: #0a38a9;
-  --bs-secondary: #ca3b72;
-  --bs-info: #e533d7;
-  --bs-success: #089e5c;
-  --bs-warning: #e0ca09;
-  --bs-danger: #ee1c03;
-  --bs-light-rgb: 213, 219, 241;
-  --bs-dark-rgb: 12, 16, 43;
-  --bs-primary-rgb: 10, 56, 169;
-  --bs-secondary-rgb: 202, 59, 114;
-  --bs-info-rgb: 229, 51, 215;
-  --bs-success-rgb: 8, 158, 92;
-  --bs-warning-rgb: 224, 202, 9;
-  --bs-danger-rgb: 238, 28, 3;
+  --bs-light: #e3e0db;
+  --bs-dark: #161223;
+  --bs-primary: #e2a732;
+  --bs-secondary: #736d8c;
+  --bs-info: #2e3f7d;
+  --bs-success: #4ea516;
+  --bs-warning: #fec04d;
+  --bs-danger: #f10b5d;
+  --bs-light-rgb: 227, 224, 219;
+  --bs-dark-rgb: 22, 18, 35;
+  --bs-primary-rgb: 226, 167, 50;
+  --bs-secondary-rgb: 115, 109, 140;
+  --bs-info-rgb: 46, 63, 125;
+  --bs-success-rgb: 78, 165, 22;
+  --bs-warning-rgb: 254, 192, 77;
+  --bs-danger-rgb: 241, 11, 93;
   --bs-primary-text: #0a58ca;
   --bs-secondary-text: #6c757d;
   --bs-success-text: #146c43;
@@ -183,98 +183,98 @@
 
 .text-bg-light {
   color: #000 !important;
-  background-color: RGBA(213, 219, 241, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(227, 224, 219, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-dark {
   color: #fff !important;
-  background-color: RGBA(12, 16, 43, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(22, 18, 35, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-primary {
-  color: #fff !important;
-  background-color: RGBA(10, 56, 169, var(--bs-bg-opacity, 1)) !important;
+  color: #000 !important;
+  background-color: RGBA(226, 167, 50, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-secondary {
   color: #fff !important;
-  background-color: RGBA(202, 59, 114, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(115, 109, 140, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-info {
-  color: #000 !important;
-  background-color: RGBA(229, 51, 215, var(--bs-bg-opacity, 1)) !important;
+  color: #fff !important;
+  background-color: RGBA(46, 63, 125, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-success {
   color: #000 !important;
-  background-color: RGBA(8, 158, 92, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(78, 165, 22, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-warning {
   color: #000 !important;
-  background-color: RGBA(224, 202, 9, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(254, 192, 77, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-danger {
   color: #000 !important;
-  background-color: RGBA(238, 28, 3, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(241, 11, 93, var(--bs-bg-opacity, 1)) !important;
 }
 
 .link-light {
-  color: #d5dbf1 !important;
+  color: #e3e0db !important;
 }
 .link-light:hover, .link-light:focus {
-  color: #dde2f4 !important;
+  color: #e9e6e2 !important;
 }
 
 .link-dark {
-  color: #0c102b !important;
+  color: #161223 !important;
 }
 .link-dark:hover, .link-dark:focus {
-  color: #0a0d22 !important;
+  color: #120e1c !important;
 }
 
 .link-primary {
-  color: #0a38a9 !important;
+  color: #e2a732 !important;
 }
 .link-primary:hover, .link-primary:focus {
-  color: #082d87 !important;
+  color: #e8b95b !important;
 }
 
 .link-secondary {
-  color: #ca3b72 !important;
+  color: #736d8c !important;
 }
 .link-secondary:hover, .link-secondary:focus {
-  color: #a22f5b !important;
+  color: #5c5770 !important;
 }
 
 .link-info {
-  color: #e533d7 !important;
+  color: #2e3f7d !important;
 }
 .link-info:hover, .link-info:focus {
-  color: #ea5cdf !important;
+  color: #253264 !important;
 }
 
 .link-success {
-  color: #089e5c !important;
+  color: #4ea516 !important;
 }
 .link-success:hover, .link-success:focus {
-  color: #39b17d !important;
+  color: #71b745 !important;
 }
 
 .link-warning {
-  color: #e0ca09 !important;
+  color: #fec04d !important;
 }
 .link-warning:hover, .link-warning:focus {
-  color: #e6d53a !important;
+  color: #fecd71 !important;
 }
 
 .link-danger {
-  color: #ee1c03 !important;
+  color: #f10b5d !important;
 }
 .link-danger:hover, .link-danger:focus {
-  color: #f14935 !important;
+  color: #f43c7d !important;
 }
 
 .ratio {
